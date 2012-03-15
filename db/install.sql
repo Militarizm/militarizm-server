@@ -16,6 +16,7 @@ CREATE TABLE IF NOT EXISTS `roles` (
 
 INSERT INTO `roles` (`id`, `name`, `description`) VALUES(1, 'login', 'Login privileges, granted after account confirmation');
 INSERT INTO `roles` (`id`, `name`, `description`) VALUES(2, 'gm', 'Gamemaster');
+INSERT INTO `roles` (`id`, `name`, `description`) VALUES(3, 'moderator', 'Moderator');
 INSERT INTO `roles` (`id`, `name`, `description`) VALUES(100, 'admin', 'Administrative user, has access to everything.');
 
 CREATE TABLE IF NOT EXISTS `roles_users` (
